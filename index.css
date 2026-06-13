@@ -1,15 +1,15 @@
 html,body{height:100%;width:100%;margin:0;font-size:1rem;font-family:serif;word-spacing:0.5rem; line-height:1.5;scroll-behavior: smooth}
 body{background:#FFFFFF;overflow-x: hidden;gap: 0.125rem;display:grid;}
 
-.grid-container{word-wrap:break-word;overflow:visible;background: #FFFFFF;display: grid; gap: 0.125rem;width: 100%}
+.grid-container{word-wrap:break-word;background: #FFFFFF;display: grid; gap: 0.125rem;width: 100%}
 
-.header{background-image:url(assets/LAND/HEADERBG.JPG);background-size: cover;background-position: center;
-  background-repeat: no-repeat; text-align:center;position:relative;overflow:hidden;width: 100%;padding: 0}
+.header{display:grid;background-image:url(assets/LAND/HEADERBG.JPG);background-size: cover;background-position: center;
+  background-repeat: no-repeat; text-align:center;position:relative;width: 100%;padding: 0}
 .header h3{background: linear-gradient(to bottom, #FFFFFF 50%,  #FFFFFF);background-clip: text;color: transparent;font-weight:bold;margin: 0 auto;padding: 0}
 
-.intro{text-align: center; color:#FFFFFF; font-family:serif;word-spacing:0.5rem; line-height:1.5;font-weight:normal; padding-top:0;padding-bottom:0;margin:0;width: 100%;
-  overflow: visible;}
-.header p{animation:fadeBlink 7s ease-in-out infinite;padding-bottom: 0;padding-top: 0;margin:0;font-size: 1rem}
+.intro{text-align: center; color:#000000; font-family:serif;word-spacing:0.5rem; line-height:1.5;font-weight:normal; padding-top:0;padding-bottom:0;width: 100%;}
+.intro p{animation:fadeBlink 7s ease-in-out infinite;padding-bottom: 0;padding-top: 0;margin-bottom: 0;
+  margin-left: 3rem;margin-right: 3rem; font-size: 1rem;}
 @media(min-width:1000px){.header p{font-size: 1.25rem}}
 @keyframes fadeBlink{0%, 100%{opacity: 1}50%{opacity: 0}}
 
