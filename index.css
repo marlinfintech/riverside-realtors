@@ -60,4 +60,4 @@ body{background:#FFFFFF;overflow-x: hidden;gap: 0.125rem;display:grid;}
 .contact-detail{display:grid;grid-template-columns: max-content max-content; align-items: center; gap:0.5rem;font-size: 1rem}
 .contact-detail img{width: 30px;height:30px;}
 footer{background:#FFFAFA;text-align:center; color:#FF8C00;}
-.endsection p{background: linear-gradient(to bottom,#000000 10%, #000000);background-clip: text;color: transparent;font-size:small}
+.endsection p{background: linear-gradient(to bottom,#000000 10%, #000000);background-clip: text;color: transparent;font-size:small;margin-bottom:0;padding-bottom:0}
