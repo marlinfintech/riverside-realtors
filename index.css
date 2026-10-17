@@ -28,7 +28,7 @@ body{background:#FFFFFF;overflow-x: hidden;gap: 0.125rem;display:grid;font-famil
 
 .intro{text-align: center; color:#000000;word-spacing:0.5rem; line-height:1.5;font-weight:normal; padding-top:0;padding-bottom:0;width: 100%;}
 .intro p{animation:fadeBlink 7s ease-in-out infinite;padding-bottom: 0;padding-top: 0;margin-bottom: 0;
-  margin-left: 3rem;margin-right: 3rem; font-size: 1rem;}
+  margin-left: 3rem;margin-right: 3rem; font-size: 0.75rem;}
 @media(min-width:1000px){.header p{font-size: 1.25rem}}
 @keyframes fadeBlink{0%, 100%{opacity: 1}50%{opacity: 0}}
 
@@ -63,17 +63,17 @@ body{background:#FFFFFF;overflow-x: hidden;gap: 0.125rem;display:grid;font-famil
 .view-button-section-land{display: grid; grid-column: span 1;align-items:center;background:#FFFFFF}
 @media(min-width:1000px){.view-button-section-land{display: grid; grid-column: span 2;align-items:center;background:#FFFFFF}}
 .view-button-land{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #7DFF7D, #00CD00); 
-  color:#000000;padding:0.5rem 0.5rem 0.5rem 0.5rem; text-decoration: none;margin:1rem auto;border:none;outline:none;font-size:1rem;font-weight:normal;}
+  color:#000000;padding:0.5rem 0.25rem 0.5rem 0.25rem; text-decoration: none;margin:1rem auto;border:none;outline:none;font-size:1rem;font-weight:normal;font-family: mft-fonts-unbounded}
 .view-button-land:hover{background: #00CD00}
 .view-button-section-property{display: grid; grid-column: span 1;align-items:center;background:#FFFFFF}
 @media(min-width:1000px){.view-button-section-property{display: grid; grid-column: span 2;align-items:center;background:#FFFFFF}}
 .view-button-property{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom,#FFD765, #FAB900); 
-  color:#000000;padding:0.5rem 0.5rem 0.5rem 0.5rem; text-decoration: none;margin:1rem auto;border:none;outline:none;font-size:1rem;font-weight:normal;}
+  color:#000000;padding:0.5rem 0.25rem 0.5rem 0.25rem; text-decoration: none;margin:1rem auto;border:none;outline:none;font-size:1rem;font-weight:normal;font-family: mft-fonts-unbounded}
 .view-button-property:hover{background: #FAB900}
 
 .hidden {display: none;}
 
-.license p{font-size: 1rem;text-align: center;font-style: italic;margin-bottom: 0}
+.license p{font-size: 0.75rem;text-align: center;font-style: italic;margin-bottom: 0}
 
 .contacts{display: grid;justify-items: start;background:#FFFAFA }
 .contact-detail{display:grid;grid-template-columns: max-content max-content; align-items: center; gap:0.5rem;font-size: 1rem}
