@@ -28,8 +28,8 @@ body{background:#FFFFFF;overflow-x: hidden;gap: 0.125rem;display:grid;font-famil
 
 .intro{text-align: center; color:#000000;word-spacing:0.5rem; line-height:1.5;font-weight:normal; padding-top:0;padding-bottom:0;width: 100%;}
 .intro p{animation:fadeBlink 7s ease-in-out infinite;padding-bottom: 0;padding-top: 0;margin-bottom: 0;
-  margin-left: 3rem;margin-right: 3rem; font-size: 0.75rem;}
-@media(min-width:1000px){.intro p{font-size: 0.75rem}}
+  margin-left: 3rem;margin-right: 3rem; font-size: 0.875rem;}
+@media(min-width:1000px){.intro p{font-size: 0.875rem}}
 @keyframes fadeBlink{0%, 100%{opacity: 1}50%{opacity: 0}}
 
 .team{background: #FFFFFF; display: grid;grid-template-columns: repeat(3, 1fr);padding: 0;width: 100%;justify-content: center; gap: 0.125rem;font-size: 0.5rem;word-spacing: 0.25rem}
@@ -73,7 +73,7 @@ body{background:#FFFFFF;overflow-x: hidden;gap: 0.125rem;display:grid;font-famil
 
 .hidden {display: none;}
 
-.license p{font-size: 0.75rem;text-align: center;font-style: italic;margin-bottom: 0}
+.license p{font-size: 0.875rem;text-align: center;font-style: italic;margin-bottom: 0}
 
 .contacts{display: grid;justify-items: start;background:#FFFAFA }
 .contact-detail{display:grid;grid-template-columns: max-content max-content; align-items: center; gap:0.5rem;font-size: 1rem}
