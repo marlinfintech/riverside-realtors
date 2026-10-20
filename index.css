@@ -24,23 +24,23 @@ body{background:#FFFFFF;overflow-x: hidden;gap: 0.125rem;display:grid;font-famil
 
 .header{display:grid;background-image:url(assets/LAND/HEADERBG.JPG);background-size: cover;background-position: center;
   background-repeat: no-repeat; text-align:center;position:relative;width: 100%;padding: 0}
-.header h2{color: #FFFFFF;font-weight:bold;margin: 0 auto;padding: 0;font-family: mft-fonts-unbounded}
+.header h2{color: #FFFFFF;font-weight:bold;margin: 0 auto;padding: 0;font-family: mft-fonts-unbounded;letter-spacing:0.05rem;}
 
 .intro{text-align: center; color:#000000;word-spacing:0.5rem; line-height:1.5;font-weight:normal; padding-top:0;padding-bottom:0;width: 100%;}
 .intro p{animation:fadeBlink 7s ease-in-out infinite;padding-bottom: 0;padding-top: 0;margin-bottom: 0;
-  margin-left: 3rem;margin-right: 3rem; font-size: 0.875rem;}
+  margin-left: 3rem;margin-right: 3rem; font-size: 0.875rem;letter-spacing:0.025rem;}
 @media(min-width:1000px){.intro p{font-size: 0.875rem}}
 @keyframes fadeBlink{0%, 100%{opacity: 1}50%{opacity: 0}}
 
 .team{background: #FFFFFF; display: grid;grid-template-columns: repeat(3, 1fr);padding: 0;width: 100%;justify-content: center; gap: 0.125rem;font-size: 0.5rem;word-spacing: 0.25rem}
 @media(min-width:1000px){.team{display: grid;grid-template-columns: repeat(7, max-content);padding: 0;width: 100%;justify-content: center; gap: 3rem}}
- .team-h{display: grid; font-weight: bold;text-align: center; grid-column: span 3;font-size: 1rem;padding: 0;}
+ .team-h{display: grid; font-weight: bold;text-align: center; grid-column: span 3;font-size: 1rem;padding: 0;letter-spacing:0.05rem;font-kerning: none;}
 @media(min-width:1000px){ .team-h{display: grid; font-weight: bold;place-items: center start;grid-column: span 1;font-size: 1rem;padding: 0;}}
 .team-h h7{}
 .team-member{}
 @media(min-width:1000px){.team-member{display: grid;gap: 0;padding: 0;margin: 0}}
 .team-member-image img{display: block; width:50px;height: 50px;margin: 0 auto;padding: 0}
-.team-member-title p{font-size: 0.75rem;font-weight: bold;text-align: center;padding: 0;margin: 0}
+.team-member-title p{font-size: 0.75rem;font-weight: bold;text-align: center;padding: 0;margin: 0;letter-spacing:0.05rem;font-kerning: none}
 
 .category-card-land{display:grid;grid-template-columns:repeat(1, 1fr) ;gap: 0.125rem; background:#FFFFFF;width: 100%;}
 @media(min-width:1000px){ .category-card-land{display:grid;grid-template-columns:repeat(2, 1fr) ;gap: 0.125rem; background:#FFFFFF;width: 100%;}}
@@ -53,30 +53,30 @@ body{background:#FFFFFF;overflow-x: hidden;gap: 0.125rem;display:grid;font-famil
 @media(min-width:1000px){.item-card-property{display:grid;grid-template-columns :repeat(3, 1fr)}}
 .item-description-land{font-weight: normal;background:#00CD00;}
 .item-description-property{font-weight: normal;background:#FAB900;}
-.item-description-land p,.item-description-property p{text-align:left;color: #FFFFFF;font-size: 1rem;margin: 0.5rem auto;}
+.item-description-land p,.item-description-property p{text-align:left;color: #FFFFFF;font-size: 1rem;margin: 0.5rem auto;letter-spacing:0.025rem;}
 @media(min-width:1000px){.item-description-land p,.item-description-property p{margin-left: 0.25rem;color: #FFFFFF;text-align: left;font-size: 1rem}}
 .item-image-land{grid-column: span 1;}
 @media(min-width:1000px){.item-image-land{grid-column: span 2;}}
 .item-image-property{grid-column: span 1;}
 @media(min-width:1000px){.item-image-property{grid-column: span 2;}}
 .item-image-land img,.item-image-property img{display:block;height: 300px;width: 100%}
-.view-button-section-land{display: grid; grid-column: span 1;align-items:center;background:#FFFFFF}
+.view-button-section-land{display: grid; grid-column: span 1;align-items:center;background:#FFFFFF;letter-spacing:0.025rem;}
 @media(min-width:1000px){.view-button-section-land{display: grid; grid-column: span 2;align-items:center;background:#FFFFFF}}
-.view-button-land{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom, #7DFF7D, #00CD00); 
-  color:#000000;padding:0.5rem 0.25rem 0.5rem 0.25rem; text-decoration: none;margin:1rem auto;border:none;outline:none;font-size:1rem;font-weight:normal;font-family: mft-fonts-unbounded}
+.view-button-land{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom,#00CD00,#009A00); 
+  color:#FFFFFF;padding:0.5rem 0.25rem 0.5rem 0.25rem; text-decoration: none;margin:1rem auto;border:none;outline:none;font-size:0.75rem;font-weight:normal;font-family: mft-fonts-unbounded}
 .view-button-land:hover{background: #00CD00}
-.view-button-section-property{display: grid; grid-column: span 1;align-items:center;background:#FFFFFF}
+.view-button-section-property{display: grid; grid-column: span 1;align-items:center;background:#FFFFFF;letter-spacing:0.025rem;}
 @media(min-width:1000px){.view-button-section-property{display: grid; grid-column: span 2;align-items:center;background:#FFFFFF}}
-.view-button-property{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom,#FFD765, #FAB900); 
-  color:#000000;padding:0.5rem 0.25rem 0.5rem 0.25rem; text-decoration: none;margin:1rem auto;border:none;outline:none;font-size:1rem;font-weight:normal;font-family: mft-fonts-unbounded}
+.view-button-property{text-align:center ;border-radius: 0.25rem; background: linear-gradient(to bottom,#FAB900,#DEA400); 
+  color:#FFFFFF;padding:0.5rem 0.25rem 0.5rem 0.25rem; text-decoration: none;margin:1rem auto;border:none;outline:none;font-size:0.75rem;font-weight:normal;font-family: mft-fonts-unbounded}
 .view-button-property:hover{background: #FAB900}
 
 .hidden {display: none;}
 
-.license p{font-size: 0.875rem;text-align: center;font-style: italic;margin-bottom: 0}
+.license p{font-size: 0.875rem;text-align: center;font-style: italic;margin-bottom: 0;letter-spacing:0.025rem;}
 
 .contacts{display: grid;justify-items: start;background:#FFFAFA }
-.contact-detail{display:grid;grid-template-columns: max-content max-content; align-items: center; gap:0.5rem;font-size: 1rem}
+.contact-detail{display:grid;grid-template-columns: max-content max-content; align-items: center; gap:0.5rem;font-size: 1rem;letter-spacing:0.025rem;}
 .contact-detail img{width: 30px;height:30px;}
 footer{background:#FFFAFA;text-align:center; color:#FF8C00;}
 .endsection p{background: linear-gradient(to bottom,#F4F4F4 10%, #0078A2);background-clip: text;color: transparent;font-size:small;margin-bottom:0;padding-bottom:0;font-family:mft-fonts-ranchers}
