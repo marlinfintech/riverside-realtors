@@ -24,7 +24,7 @@ body{background:#FFFFFF;overflow-x: hidden;gap: 0.125rem;display:grid;font-famil
 
 .header{display:grid;background-image:url(assets/LAND/HEADERBG.JPG);background-size: cover;background-position: center;
   background-repeat: no-repeat; text-align:center;position:relative;width: 100%;padding: 0}
-.header h2{color: #FFFFFF;font-weight:bold;margin: 0 auto;padding: 0;font-family: mft-fonts-unbounded;letter-spacing:0.05rem;}
+.header h2{color: #FFFFFF;font-weight:bold;margin: 0 auto;padding: 0;font-family: mft-fonts-unbounded;letter-spacing:0.05rem}
 
 .intro{text-align: center; color:#000000;word-spacing:0.5rem; line-height:1.5;font-weight:normal; padding-top:0;padding-bottom:0;width: 100%;}
 .intro p{animation:fadeBlink 7s ease-in-out infinite;padding-bottom: 0;padding-top: 0;margin-bottom: 0;
@@ -72,6 +72,8 @@ body{background:#FFFFFF;overflow-x: hidden;gap: 0.125rem;display:grid;font-famil
 .view-button-property:hover{background: #FAB900}
 
 .hidden {display: none;}
+
+@media(max-width:1000px){.header h2{font-size:1.15rem}}
 
 .license p{font-size: 0.875rem;text-align: center;font-style: italic;margin-bottom: 0;letter-spacing:0.025rem;}
 
