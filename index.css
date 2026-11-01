@@ -12,7 +12,7 @@
     font-style: normal;font-display: block;
 }
 
-html,body{height:100%;width:100%;margin:0;font-size:1rem;font-family:sans-serif;word-spacing:0.5rem; line-height:1.5;scroll-behavior: smooth}
+html,body{height:100%;width:100%;margin:0;font-size:1rem;word-spacing:0.5rem; line-height:1.5;scroll-behavior: smooth}
 body{background:#FFFFFF;overflow-x: hidden;gap: 0.125rem;display:grid;font-family: mft-fonts-unbounded}
 
 .grid-container{word-wrap:break-word;background: #FFFFFF;display: grid; gap: 0.125rem;width: 100%}
